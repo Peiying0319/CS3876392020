@@ -1,0 +1,15 @@
+Week_1a_Github Exercise
+
+Part 3: What is GitHub? When was it created? Why? By who? What similar platforms exist? Why would you use such a platform?
+	A: GitHub is a web application that hosts Git repositories and it was developed in year 2008, it was created by Chris Wanstrath, P. J. Hyett, Tom Preston-Werner and Scott Chacon using Ruby on Rails. It allows many people from different places to work on a same project. There are some similar platforms like Bitbucket, Beanstalk, GitKraken and so on, but I like GitHub the most because it’s more popular and more easy to utilize.
+
+Part 4: 
+•	Repository: A git repository is a folder inside a project. This repository saves everything you’ve edited and have been git pushed (uploaded) to the git repository.  Others, by using git clone can simply see all the changes to the project.
+•	Commit: A git commit (commit –m “comment of change”) allows you to make comment on the change you just made
+•	Push: Git push is just to upload all the changes that have been made to the project, and make the changes visible to others.
+•	Branch: A branch is like a pointer to one of the commits you have created.
+•	Fork: A fork is a copy of a repository. If you want to work on the project privately without editing the original file, you can simply do this by forking a repository.
+•	Merge: Merging is for putting a forked history back together again.
+•	Clone: To copy and paste a repository and make it local file
+•	Pull: To “download” all the commits that have been git push by others.
+•	Pull request: Telling others about changes you’ve pushed to the repository.
