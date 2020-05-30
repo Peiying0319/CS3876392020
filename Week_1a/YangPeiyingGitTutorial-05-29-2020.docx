@@ -13,3 +13,15 @@ Part 4:
 •	Clone: To copy and paste a repository and make it local file
 •	Pull: To “download” all the commits that have been git push by others.
 •	Pull request: Telling others about changes you’ve pushed to the repository.
+
+Part 6: 
+1. I first forked the repository "paceuniversity/courses" 
+2. git clone "https://github.com/galefoox/courses.git"
+3. I updated the file on my local ubuntu worksation
+4. git add 
+5. git commit 
+6. git push to my own repository, branch - master
+7. go to the https://github.com/paceuniversity/courses
+8. pull request - create pull request - select the repo that I forked before
+9. make commit
+10. create pull request
