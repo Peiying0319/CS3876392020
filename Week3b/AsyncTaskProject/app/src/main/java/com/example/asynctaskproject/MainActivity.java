@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 if(link.isEmpty()){
                     Toast.makeText(getApplicationContext(),"Please enter url",
                         Toast.LENGTH_SHORT).show();
+                        //URL: https://dimg03.c-ctrip.com/images/100714000000xggs45E22.jpg
                 }else {
                     LoadImage loadImage = new LoadImage(image);
                     loadImage.execute(link);
