@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#FFE5D9"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp">
+
+            <ImageButton
+                android:id="@+id/eat_img_btn"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#fff"
+                android:src="@drawable/eat"
+                app:layout_column="0"
+                app:layout_row="0" />
+
+            <ImageButton
+                android:id="@+id/do_img_btn"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:src="@drawable/what_to_do"
+                android:background="#fff"
+                app:layout_column="1"
+                app:layout_row="0" />
+
+            <ImageButton
+                android:id="@+id/go_img_btn"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:layout_column="0"
+                app:layout_row="1"
+                android:src="@drawable/go"
+                android:background="#fff"/>
+
+            <ImageButton
+                android:id="@+id/travel_img_btn"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:layout_column="1"
+                app:layout_row="1"
+                android:src="@drawable/travel"
+                android:background="#fff"/>
+
+        </androidx.gridlayout.widget.GridLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp">
+
+        <ImageButton
+            android:id="@+id/yes_or_no_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:src="@drawable/yes_or_no" />
+    </RelativeLayout>
+
+
+</LinearLayout>

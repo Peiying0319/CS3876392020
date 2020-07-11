@@ -1,0 +1,8 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="make_my_day">MDay</string>
+    <string name="eat">"what to Eat"</string>
+    <string name="what_to_do">"What to Do"</string>
+    <string name="go">"Where to Go"</string>
+    <string name="travel">"Where to Travel"</string>
+    <string name="yew_or_no">"Yes or No"</string>
+</resources>

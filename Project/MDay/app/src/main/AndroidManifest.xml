@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mday">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/mday_icon"
+        android:label="MDay"
+        android:roundIcon="@drawable/mday_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/make_my_day">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".EatActivity"
+                    android:label="@string/eat">
+            <intent-filter>
+                <action android:name="Eat_Activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DoActivity"
+            android:label="@string/what_to_do">
+            <intent-filter>
+                <action android:name="Do_Activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".GoActivity"
+            android:label="@string/go">
+            <intent-filter>
+                <action android:name="Go_Activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".TravelActivity"
+            android:label="@string/travel">
+            <intent-filter>
+                <action android:name="Travel_Activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".YesOrNoActivity"
+            android:label="@string/yew_or_no">
+            <intent-filter>
+                <action android:name="Yes_Or_No_Activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
